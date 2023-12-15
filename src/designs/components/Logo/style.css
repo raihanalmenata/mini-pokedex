@@ -1,0 +1,30 @@
+.logo-con {
+    display: flex;
+    gap: 5px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-shape {
+    height: max-content;
+}
+
+.logo-text-con {
+    margin: 0px;
+    font: var(--P3-16-B);
+}
+
+
+
+.logo-text-1 {
+    color: var(--black-1);
+}
+
+.logo-text-2 {
+    color: var(--gray-1);
+}
+
+.logo-text-3 {
+    color: var(--accent);
+}
