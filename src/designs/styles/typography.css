@@ -1,0 +1,18 @@
+:root {
+
+    /* Bold */
+    --P1-28-B: 700 28px Inter;
+    --P2-18-B: 700 18px Inter;
+    --P3-16-B: 700 16px Inter;
+    --P4-11-B: 700 11px Inter;
+    
+    /* Semibold */
+    --P5-15-SB: 600 15px Inter;
+    --P6-13-SB: 600 13px Inter;
+    --P7-10-SB: 600 10px Inter;
+    --P8-8-SB: 600 8px Inter;
+    
+    /* Medium */
+    --P9-8-M: 500 8px Inter;
+
+}
