@@ -20,7 +20,9 @@ const App = (): JSX.Element => {
           { '< Card Inspector >' }
           </div>
         </div>
-        <Footer />
+        <Footer 
+          text='Mini_Pokedex is a part of technical test project at Dattabot.id'
+        />
       </div>
     </div>
   )

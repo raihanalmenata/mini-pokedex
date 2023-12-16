@@ -1,9 +1,13 @@
 import './style.css'
 
-const Footer = (): JSX.Element => (
+interface Props {
+    text? : string
+}
+
+const Footer = ({ text }: Props): JSX.Element => (
     <footer id="app-footer">
         <p className="footer-text">
-            Mini_Pokedex is a part of technical test project at Dattabot.id
+            { text }
         </p>
     </footer>    
 );
