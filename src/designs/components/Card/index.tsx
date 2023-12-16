@@ -19,8 +19,7 @@ const Card = ({
     description,
     extraHeader,
     picture,
-    icon,
-    hideIcon
+    icon
 }: Props): JSX.Element => (
     <div className="card">
         <div className="card-pic-con">
@@ -42,7 +41,7 @@ const Card = ({
                 { description }
             </h4>
         </div>
-        <div className={'card-icon-con' + (hideIcon && 'hide')}>
+        <div className='card-icon-con'>
             {
                 icon && icon
             }
