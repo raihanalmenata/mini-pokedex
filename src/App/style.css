@@ -44,14 +44,5 @@ body {
   
   display: flex;
   flex-direction: column;
-}
-
-#card-inspector {
-  flex-grow: 1;
-  max-width: 300px;
-  border-left: 1px solid var(--gray-2);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 499px;
 }
