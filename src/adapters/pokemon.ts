@@ -1,6 +1,6 @@
 const sourceBaseUrl = 'https://pokeapi.co/api/v2';
 
-    export const getPokemonUrl = async (limit: number, offset: number) => {
+    export const getPokemonPaginationResource = async (limit: number, offset: number) => {
         const endpoint = '/pokemon';
         const query = '?' + new URLSearchParams({'limit' : limit.toString(), 'offset': offset.toString()}).toString();
         const reqUrl = sourceBaseUrl + endpoint + query;
