@@ -1,0 +1,187 @@
+#poke-inspector {
+    flex-grow: 1;
+    max-width: 300px;
+    border-left: 1px solid var(--gray-2);
+
+    max-height: 401px;
+    overflow-y: scroll;
+
+    padding: 16px;
+    gap: 12px;
+    
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+  }
+
+  .pic-con {
+      min-height: 144px;
+      background-color: var(--secondary);
+      border-radius: var(--border-radius-R);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .pic-con .poke-pic {
+      max-width: 96px;
+      aspect-ratio: 1/1;
+  }
+
+  #poke-inspector .data-con {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+  }
+
+  .data-con .data-header {
+      padding: 7px 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .data-con .data-header * {
+        margin: 0px;
+    }
+
+    .data-con .data-header .poke-name {
+        font: var(--P1-28-B);
+        color: var(--accent);
+    }
+
+    .data-con .data-header .poke-type {
+        font: var(--P5-15-SB);
+        color: var(--gray-3);
+    }
+
+    .data-con .poke-profile {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    
+    .poke-profile .poke-profile-row {
+        display: flex;
+    }
+    .poke-profile .poke-profile-col{
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        padding: 4px;
+        gap: 4px;
+
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .poke-profile .poke-profile-label {
+        font: var(--P4-11-B);
+        color: var(--gray-1);
+        margin: 0px;
+    }
+    
+    .poke-profile .poke-profile-value {
+        font: var(--P3-16-B);
+        color: var(--black-1);
+        margin: 0px;
+    }
+    
+    .data-con .poke-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .poke-info > div {
+        border-top: 1px solid var(--gray-2);
+    }
+
+    .poke-info .poke-stats {
+        display: flex;
+        flex-direction: column;
+        padding: 12px 7px;
+        gap: 10px;   
+    }
+    
+    .poke-stats .poke-stats-heading {
+        font: var(--P3-16-B);
+        color: var(--black-1);
+        margin: 0px;
+        
+        text-align: center;
+    }
+    
+    .poke-stats .poke-stats-data {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .poke-stats .poke-stats-data-row {
+        display: flex;
+        gap: 8px;
+    }
+
+    .poke-stats .poke-stats-data-col {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .poke-stats .poke-stats-data-label, .poke-stats .poke-stats-data-value {
+        margin: 0px;
+        text-align: center;
+        font: var(--P6-13-SB);
+    }
+    
+    .poke-stats .poke-stats-data-label {
+        color: var(--gray-1);
+    }
+    
+    .poke-stats .poke-stats-data-value {
+        color: var(--black-1);
+    }
+
+    .poke-info .poke-abilities, .poke-info .poke-moves {
+        display: flex;
+        flex-direction: column;
+        padding: 12px 7px;
+        gap: 12px;
+    }
+
+    .poke-abilities .poke-abilities-heading, .poke-moves .poke-moves-heading {
+        font: var(--P3-16-B);
+        color: var(--black-1);
+        text-align: center;
+        margin: 0px;    
+    }
+
+    .poke-abilities .poke-abilities-con, .poke-moves .poke-moves-con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        gap: 8px;
+    }
+
+    .poke-abilities .poke-abilities-datum, .poke-moves .poke-moves-datum {
+        font: var(--P6-13-SB);
+        color: var(--gray-1);
+    }
+
+    .unselected-message-con {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .unselected-message {
+        font: var(--P7-10-SB);
+        color: var(--gray-3);
+    }
