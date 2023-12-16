@@ -1,10 +1,17 @@
 .pic-holder {
-    display: flex;
+    min-width: 96px;
+    aspect-ratio: 1/1;
     
     background-color: var(--secondary);
     border-radius: var(--border-radius-R);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pic-holder img {
     width: 100%;
+    max-width: 68px;
+    aspect-ratio: 1/1;
 }
