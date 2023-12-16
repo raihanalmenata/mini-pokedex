@@ -28,18 +28,18 @@ const Card = ({
             }
         </div>
         <div className="card-data-con">
-            <h2 className="extra-header">
+            <h4 className="extra-header">
                 { extraHeader }
-            </h2>
-            <h1 className="title">
-                { title }
-            </h1>
-            <h3 className="subtitle">
-                { subtitle }
-            </h3>
-            <h4 className="description">
-                { description }
             </h4>
+            <h3 className="title">
+                { title }
+            </h3>
+            <h5 className="subtitle">
+                { subtitle }
+            </h5>
+            <h6 className="description">
+                { description }
+            </h6>
         </div>
         <div className='card-icon-con'>
             {
