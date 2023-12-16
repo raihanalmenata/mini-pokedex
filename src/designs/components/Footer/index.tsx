@@ -1,6 +1,7 @@
+import { HTMLAttributes } from 'react';
 import './style.css'
 
-interface Props {
+interface Props extends HTMLAttributes<HTMLDivElement>{
     text? : string
 }
 

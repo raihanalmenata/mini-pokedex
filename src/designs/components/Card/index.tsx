@@ -1,7 +1,7 @@
-import { ReactNode } from 'react';
+import { HTMLAttributes, ReactNode } from 'react';
 import './style.css'
 
-interface Props {
+interface Props extends HTMLAttributes<HTMLDivElement>{
     title : string,
     subtitle? : string,
     description? : string,
