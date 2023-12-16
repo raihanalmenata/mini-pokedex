@@ -1,0 +1,10 @@
+.pic-holder {
+    display: flex;
+    
+    background-color: var(--secondary);
+    border-radius: var(--border-radius-R);
+}
+
+.pic-holder img {
+    width: 100%;
+}
