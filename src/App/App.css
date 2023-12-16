@@ -34,5 +34,22 @@ body {
 
   display: flex;
   justify-content: center;
+}
+
+#card-list {
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-inspector {
+  flex-grow: 1;
+  max-width: 300px;
+  border-left: 1px solid var(--gray-2);
+
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
