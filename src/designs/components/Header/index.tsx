@@ -1,9 +1,13 @@
-import Logo from '../Logo';
+import { ReactNode } from 'react';
 import './style.css'
 
-const Header = (): JSX.Element => (
+interface Props {
+    children?: ReactNode
+}
+
+const Header = ({children}: Props): JSX.Element => (
     <nav id="app-header">
-        <Logo title={true} />
+        { children }
     </nav>    
 );
 

@@ -6,12 +6,15 @@ import '../designs/styles/other.css'
 
 import Header from '../designs/components/Header';
 import Footer from '../designs/components/Footer';
+import Logo from '../designs/components/Logo';
 
 const App = (): JSX.Element => {
   return (
     <div id="app-con">
       <div id="app">
-        <Header />
+        <Header>
+          <Logo title={true} />
+        </Header>
         <div id="app-content">
           <div id="card-list">
             { '< Card List >' }
